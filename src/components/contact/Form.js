@@ -1,4 +1,5 @@
 import React from 'react'
+import { Alert } from 'react-bootstrap'
 
 export default class Form extends React.Component {
   constructor(props) {
@@ -13,15 +14,30 @@ export default class Form extends React.Component {
     const { status } = this.state
     return (
       <form
+        className='form-group'
         onSubmit={this.submitForm}
         action='https://formspree.io/f/mgeplwkn'
         method='POST'>
         <label>Email:</label>
-        <input type='email' name='email' />
+        <input className='form-control mb-2' type='email' name='email' />
         <label>Message:</label>
-        <input type='text' name='message' />
-        {status === 'SUCCESS' ? <p>Thanks!</p> : <button>Submit</button>}
-        {status === 'ERROR' && <p>Ooops! There was an error.</p>}
+        <textarea
+          className='form-control'
+          type='text'
+          name='message'
+          rows='3'></textarea>
+        {status === 'SUCCESS' ? (
+          <Alert variant='success' className='mt-3'>
+            Thanks!
+          </Alert>
+        ) : (
+          <button className='btn btn-primary mt-3'>Submit</button>
+        )}
+        {status === 'ERROR' && (
+          <Alert variant='warning' className='mt-3'>
+            Thanks!
+          </Alert>
+        )}
       </form>
     )
   }
