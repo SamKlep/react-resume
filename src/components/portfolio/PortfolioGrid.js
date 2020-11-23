@@ -56,9 +56,9 @@ const PortfolioGrid = () => {
           <Col>
             <CardDeck>
               <Card>
-                <Card.Img variant='top' src='img/crypto-zone1.png' />
+                <Card.Img variant='top' src='img/nasaImage.png' />
                 <Card.Body>
-                  <Card.Title>Card title</Card.Title>
+                  <Card.Title>Nasa Image of the Day</Card.Title>
                   <Card.Text>
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
@@ -70,9 +70,9 @@ const PortfolioGrid = () => {
                 </Card.Footer>
               </Card>
               <Card>
-                <Card.Img variant='top' src='img/findahouse.png' />
+                <Card.Img variant='top' src='img/serials.png' />
                 <Card.Body>
-                  <Card.Title>Card title</Card.Title>
+                  <Card.Title>Serial Killers & Unsolved Mysteries</Card.Title>
                   <Card.Text>
                     This card has supporting text below as a natural lead-in to
                     additional content.{' '}
@@ -83,9 +83,9 @@ const PortfolioGrid = () => {
                 </Card.Footer>
               </Card>
               <Card>
-                <Card.Img variant='top' src='img/contactkeeper.png' />
+                <Card.Img variant='top' src='img/spaceX.png' />
                 <Card.Body>
-                  <Card.Title>Card title</Card.Title>
+                  <Card.Title>Space X Launch Data</Card.Title>
                   <Card.Text>
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This card has even longer
