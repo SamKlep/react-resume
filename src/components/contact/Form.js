@@ -1,5 +1,6 @@
 import React from 'react'
 import { Alert } from 'react-bootstrap'
+import AlertDismiss from '../ui/AlertDismiss'
 
 export default class Form extends React.Component {
   constructor(props) {
@@ -27,9 +28,9 @@ export default class Form extends React.Component {
           name='message'
           rows='3'></textarea>
         {status === 'SUCCESS' ? (
-          <Alert variant='success' className='mt-3'>
+          <AlertDismiss>
             Thanks!
-          </Alert>
+          </AlertDismiss>
         ) : (
           <button className='btn btn-primary mt-3'>Submit</button>
         )}

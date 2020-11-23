@@ -8,7 +8,7 @@
 }
 
 /* HomeScreen */
-.jumbotron {
+.jumbo-home {
   background-image: url('https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?cs=srgb&dl=pexels-pixabay-373543.jpg&fm=jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -16,3 +16,9 @@
 }
 
 /* Portfolio */
+.jumbo-crypto {
+  background-image: url('https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

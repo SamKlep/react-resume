@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Header from './components/ui/Header'
 import HomeScreen from './components/screens/HomeScreen'
 import Footer from './components/ui/Footer'
+import CryptoScreen from './components/screens/CryptoScreen'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Switch>
         <Route path='/' component={HomeScreen} exact />
+        <Route path='/crypto-zone' component={CryptoScreen} exact />
       </Switch>
       <Footer />
     </Router>

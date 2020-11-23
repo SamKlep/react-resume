@@ -1,5 +1,6 @@
 import React from 'react'
 import { Row, Col, Card, Container, CardDeck, Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const PortfolioGrid = () => {
   return (
@@ -19,7 +20,9 @@ const PortfolioGrid = () => {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Button>Learn more</Button>
+                  <Link to='/crypto-zone'>
+                    <Button>Learn more</Button>
+                  </Link>
                 </Card.Footer>
               </Card>
               <Card>
