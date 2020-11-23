@@ -125,6 +125,7 @@ const Services = () => {
                   functional correctness, analyzing behavoir and fix any defects
                   that may occur.
                 </Card.Text>
+                <br />
                 <Container className='text-center'>
                   <span
                     className='iconify fa-4x m-2 text-danger'

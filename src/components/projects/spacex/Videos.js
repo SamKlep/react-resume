@@ -8,12 +8,12 @@ const Videos = () => {
         <Row className='justify-content-lg-center'>
           <Col>
             <video width='320' height='240' controls>
-              <source src='img/crypto/crypto-news.mov' type='video/mp4' />
+              <source src='img/spacex/spacex-scroll.mov' type='video/mp4' />
             </video>
           </Col>
           <Col>
             <video width='320' height='240' controls>
-              <source src='img/crypto/crypto-prices.mov' type='video/mp4' />
+              <source src='img/spacex/spacex-detail.mov' type='video/mp4' />
             </video>
           </Col>
         </Row>

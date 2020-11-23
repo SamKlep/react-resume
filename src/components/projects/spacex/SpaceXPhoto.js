@@ -11,12 +11,12 @@ const photos = [
     height: 3,
   },
   {
-    src: 'img/spacex/spaceX.png',
+    src: 'img/spacex/spacex-1.png',
     width: 4,
     height: 3,
   },
   {
-    src: 'img/spacex/spaceX.png',
+    src: 'img/spacex/spacex-2.png',
     width: 4,
     height: 3,
   },
