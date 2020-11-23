@@ -9,13 +9,14 @@ const About = () => {
           <Col lg={6}>
             <div>
               <h3>About Me</h3>
+              <h6 className='text-muted'>
+                Javascript-enthusiast and avid problem solver.
+              </h6>
               <p>
-                I have been working as a free-lance web developer for
-                <strong> 1 year</strong> and have developed a well-rounded
-                process for giving the client what they need in a timely manner.
-                I am currently pursuing a degree in{' '}
-                <strong>Artificial Intelligence</strong> from{' '}
-                <strong>HCC</strong>.
+                Versatile <strong>software developer</strong> with the ability
+                to pick up new languages and technologies as needed. Currently
+                perusing a degree in Computer Science at{' '}
+                <strong>Houston Community College.</strong>
               </p>
             </div>
           </Col>
