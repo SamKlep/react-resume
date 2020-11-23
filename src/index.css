@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Mukta&display=swap');
+
+* {
+  font-family: 'Mukta', sans-serif;
+}
 
 /* Header */
 .logo {
