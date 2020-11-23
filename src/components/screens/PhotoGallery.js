@@ -6,17 +6,17 @@ import { Container } from 'react-bootstrap'
 
 const photos = [
   {
-    src: 'img/crypto-1.png',
+    src: 'img/crypto/crypto-1.png',
     width: 4,
     height: 3,
   },
   {
-    src: 'img/crypto-2.png',
+    src: 'img/crypto/crypto-2.png',
     width: 4,
     height: 3,
   },
   {
-    src: 'img/crypto-3.png',
+    src: 'img/crypto/crypto-3.png',
     width: 4,
     height: 3,
   },

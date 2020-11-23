@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Button } from 'react-bootstrap'
 
 const Content = () => {
   return (
@@ -7,10 +7,12 @@ const Content = () => {
       <Container>
         <Row className='justify-content-lg-center mb-5'>
           <Col className='text-center' lg={6}>
-            <h1>Crypto Zone</h1>
-            <p className='lead'>
-              Stay up to date with the latest crypto news & prices.
-            </p>
+            <Button className='m-3'>
+              <i className='fab fa-github-square'></i> GitHub
+            </Button>
+            <Button className='m-3'>
+              <i className='fas fa-link'></i> Link
+            </Button>
           </Col>
         </Row>
       </Container>

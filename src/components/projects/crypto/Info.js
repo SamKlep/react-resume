@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container, Row, Col, ListGroup } from 'react-bootstrap'
+import { Container, Row, Col, ListGroup, Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const Info = () => {
   return (
@@ -7,7 +8,7 @@ const Info = () => {
       <Container>
         <Row className='justify-content-lg-center mb-5'>
           <Col lg={6}>
-            <h1>Info</h1>
+            <h1>About</h1>
             <p className='lead'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a
               viverra ex, in consequat justo. Etiam volutpat in magna sed
@@ -25,8 +26,8 @@ const Info = () => {
         <hr />
         <Row className='mt-5 mb-5'>
           <Col>
-            <h1>Technologies Used</h1>
-            <p>
+            <h1>Tech Stack</h1>
+            <p className='lead'>
               {' '}
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a
               viverra ex, in consequat justo. Etiam volutpat in magna sed
@@ -50,6 +51,9 @@ const Info = () => {
             </ListGroup>
           </Col>
         </Row>
+        <Link to='/'>
+          <Button className='mb-5'>Go Back</Button>
+        </Link>
       </Container>
     </div>
   )

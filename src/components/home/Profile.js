@@ -23,14 +23,14 @@ const Profile = () => {
 
                   <Card.Text>
                     <ListGroup>
-                      <ListGroup.Item>
+                      <ListGroup.Item className='bg-light'>
                         <strong>Address:</strong> 2406 W. 18th St, Houston, TX
                         77008
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <strong>Phone:</strong> (713) 376 - 9541
                       </ListGroup.Item>
-                      <ListGroup.Item>
+                      <ListGroup.Item className='bg-light'>
                         <strong>Email:</strong> samklepdev@gmail.com
                       </ListGroup.Item>
                     </ListGroup>
