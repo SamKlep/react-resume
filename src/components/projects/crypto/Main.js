@@ -6,8 +6,8 @@ const Main = () => {
     <div>
       <Jumbotron fluid className='jumbo-crypto mb-5 text-white'>
         <Container>
-          <h1>Crypto Zone</h1>
-          <p className='lead'>
+          <h1 className='text-light'>Crypto Zone</h1>
+          <p className='lead text-light'>
             Stay up to date with the latest crypto news & prices.
           </p>
         </Container>
