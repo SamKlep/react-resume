@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 
-import Form from '../contact/Form'
+import Form from '../ui/Form'
 
 const Contact = () => {
   return (

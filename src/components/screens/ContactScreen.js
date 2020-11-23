@@ -1,9 +1,9 @@
 import React from 'react'
-import Info from '../contact/Info'
-import Main from '../contact/Main'
-import ContactPhoto from '../contact/ContactPhoto'
-import Videos from '../contact/Videos'
-import Content from '../contact/Content'
+import Info from '../projects/contact/Info'
+import Main from '../projects/contact/Main'
+import ContactPhoto from '../projects/contact/ContactPhoto'
+import Videos from '../projects/contact/Videos'
+import Content from '../projects/contact/Content'
 
 const ContactScreen = () => {
   return (

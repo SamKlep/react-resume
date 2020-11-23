@@ -65,7 +65,9 @@ const PortfolioGrid = () => {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Button>Learn more</Button>
+                  <Link to='/nasa'>
+                    <Button>Learn more</Button>
+                  </Link>
                 </Card.Footer>
               </Card>
               <Card>
@@ -78,7 +80,9 @@ const PortfolioGrid = () => {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Button>Learn more</Button>
+                  <Link to='/serials'>
+                    <Button>Learn more</Button>
+                  </Link>
                 </Card.Footer>
               </Card>
               <Card>
@@ -88,7 +92,9 @@ const PortfolioGrid = () => {
                   <Card.Text>Explore Space X Launch data!</Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Button>Learn more</Button>
+                  <Link to='/spacex'>
+                    <Button>Learn more</Button>
+                  </Link>
                 </Card.Footer>
               </Card>
             </CardDeck>

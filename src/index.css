@@ -35,3 +35,22 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.jumbo-nasa {
+  background-image: url('https://images.pexels.com/photos/2156/sky-earth-space-working.jpg?cs=srgb&dl=pexels-pixabay-2156.jpg&fm=jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbo-serials {
+  background-image: url('https://images.pexels.com/photos/162389/lost-places-old-decay-ruin-162389.jpeg?cs=srgb&dl=pexels-pixabay-162389.jpg&fm=jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbo-spacex {
+  background-image: url('https://images.pexels.com/photos/23769/pexels-photo.jpg?cs=srgb&dl=pexels-spacex-23769.jpg&fm=jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
