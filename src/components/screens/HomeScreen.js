@@ -3,6 +3,9 @@ import Main from '../home/Main'
 import About from '../home/About'
 import Profile from '../home/Profile'
 import Services from '../home/Services'
+import Resume from '../home/Resume'
+import Portfolio from '../home/Portfolio'
+import Contact from '../home/Contact'
 
 const HomeScreen = () => {
   return (
@@ -11,6 +14,9 @@ const HomeScreen = () => {
       <About />
       <Profile />
       <Services />
+      <Resume />
+      <Portfolio />
+      <Contact />
     </div>
   )
 }
