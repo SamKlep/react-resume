@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 const About = () => {
   return (
-    <div>
+    <div id='about'>
       <Container className='mb-5'>
         <Row className='justify-content-lg-center'>
           <Col lg={6}>

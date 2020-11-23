@@ -4,7 +4,7 @@ import PortfolioGrid from '../portfolio/PortfolioGrid'
 
 const Portfolio = () => {
   return (
-    <div>
+    <div className='portfolio'>
       <Container className='text-center'>
         <Row className='justify-content-lg-center mb-5'>
           <Col lg={6}>

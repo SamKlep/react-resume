@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap'
 
 const Resume = () => {
   return (
-    <div>
+    <div className='resume'>
       <Container>
         <Row className='justify-content-lg-center mb-5'>
           <Col lg={6}>
@@ -11,9 +11,11 @@ const Resume = () => {
             <br />
             <hr />
             <br />
-            <Button className='btn btn-block'>
-              <i className='m-2 fas fa-download'></i>Download
-            </Button>
+            <a href='img/sbk-Resume-11:2020.pdf' target='_blank'>
+              <Button className='btn btn-block'>
+                <i className='m-2 fas fa-download'></i>Download
+              </Button>
+            </a>
           </Col>
         </Row>
       </Container>

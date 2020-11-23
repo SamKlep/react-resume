@@ -1,5 +1,6 @@
 import React from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
+import { Link, animateScroll as scroll } from 'react-scroll'
 
 const Header = () => {
   return (
@@ -13,11 +14,47 @@ const Header = () => {
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='mr-auto'></Nav>
           <Nav>
-            <Nav.Link href='#features'>About</Nav.Link>
-            <Nav.Link href='#pricing'>Services</Nav.Link>
-            <Nav.Link href='#features'>Resume</Nav.Link>
-            <Nav.Link href='#pricing'>Portfolio</Nav.Link>
-            <Nav.Link href='#pricing'>Contact</Nav.Link>
+            <Link
+              activeClass='active'
+              to='about'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}>
+              <Nav.Link className='nav-item'>About</Nav.Link>
+            </Link>
+            <Link
+              to='services'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}>
+              <Nav.Link className='nav-item'>Services</Nav.Link>
+            </Link>
+            <Link
+              to='resume'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}>
+              <Nav.Link className='nav-item'>Resume</Nav.Link>
+            </Link>
+            <Link
+              to='portfolio'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}>
+              <Nav.Link className='nav-item'>Portfolio</Nav.Link>
+            </Link>
+            <Link
+              to='contact'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}>
+              <Nav.Link className='nav-item'>Contact</Nav.Link>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

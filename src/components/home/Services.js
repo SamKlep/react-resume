@@ -3,7 +3,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap'
 
 const Services = () => {
   return (
-    <div>
+    <div id='services'>
       <Container className='mt-5 mb-5'>
         <Row className='justify-content-lg-center mb-5'>
           <Col lg={6}>
@@ -17,11 +17,11 @@ const Services = () => {
                 <Card.Title className='text-warning'>Frontend</Card.Title>
 
                 <Card.Text>
-                  Develop front-end applications using latest standards with
-                  <strong> HTML5/CSS3</strong> with added funtionality using
-                  <strong> JavaScript</strong> and <strong>React.js.</strong>{' '}
-                  Utilize API's to deliver up to date information while keeping
-                  a mobile first approach to responsive design.
+                  Develop production ready applications with
+                  <strong> HTML5, CSS3, Javascript, Bootstrap </strong> and
+                  <strong> React.js.</strong> Utilize API's to deliver up to
+                  date information while keeping a mobile first approach to
+                  responsive design.
                 </Card.Text>
                 <Container className='text-center'>
                   <span
@@ -51,9 +51,12 @@ const Services = () => {
                 <Card.Title className='text-warning'>Backend</Card.Title>
 
                 <Card.Text>
-                  Develop back-end applications/services using Node.js and
-                  Express alongside MongoDB or PostgreSQL database. Build robust
-                  APIs with documentation and easy to use CRUD functionality.
+                  Develop back-end applications/services using{' '}
+                  <strong>Node.js</strong> and <strong>Express</strong> with{' '}
+                  <strong>MongoDB</strong> or <strong>PostgreSQL</strong>{' '}
+                  databases. Can build robust <strong>APIs</strong> with
+                  documentation and easy to use <strong>CRUD</strong>{' '}
+                  functionality.
                 </Card.Text>
 
                 <Container className='text-center mb-3'>
@@ -86,9 +89,10 @@ const Services = () => {
 
                 <Card.Text>
                   Utilizing best practices and tools like version control using
-                  Git and GitHub. Delivering secure applications deployed to
-                  Heroku, Netlify, and AWS in which helps produce products at a
-                  faster pace than traditional software development.
+                  <strong> Git</strong> and <strong>GitHub.</strong> Delivering
+                  secure applications deployed to
+                  <strong> Heroku</strong>, <strong>Netlify</strong>, and{' '}
+                  <strong>AWS</strong>.
                 </Card.Text>
                 <Container className='text-center'>
                   <span
@@ -121,11 +125,11 @@ const Services = () => {
 
                 <Card.Text>
                   Identifying any problems that may arise in development by
-                  writing unit test to monitor individual modules to insure
-                  functional correctness, analyzing behavoir and fix any defects
-                  that may occur.
+                  writing <strong>unit test</strong> to monitor individual
+                  modules to insure functional correctness,{' '}
+                  <strong>analyzing </strong>behavoir and fix any defects that
+                  may occur.
                 </Card.Text>
-                <br />
                 <Container className='text-center'>
                   <span
                     className='iconify fa-4x m-2 text-danger'

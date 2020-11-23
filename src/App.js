@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Header from './components/ui/Header'
+
+import Scrollup from './components/ui/ScrollUpButton'
 import HomeScreen from './components/screens/HomeScreen'
 import Footer from './components/ui/Footer'
 import CryptoScreen from './components/screens/CryptoScreen'
@@ -22,6 +24,7 @@ function App() {
         <Route path='/serials' component={SerialsScreen} exact />
         <Route path='/spacex' component={SpaceXScreen} exact />
       </Switch>
+      <Scrollup />
       <Footer />
     </Router>
   )

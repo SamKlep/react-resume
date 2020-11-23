@@ -5,7 +5,7 @@ import Form from '../ui/Form'
 
 const Contact = () => {
   return (
-    <div className='mt-5'>
+    <div id='contact' className='mt-5'>
       <Container>
         <Row className='justify-content-lg-center mb-5'>
           <Col className='text-center' lg={6}>
