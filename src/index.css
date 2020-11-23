@@ -29,3 +29,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.jumbo-contact {
+  background-image: url('https://images.pexels.com/photos/33999/pexels-photo.jpg?cs=srgb&dl=pexels-negative-space-33999.jpg&fm=jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

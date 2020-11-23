@@ -4,11 +4,11 @@ import { Jumbotron, Container } from 'react-bootstrap'
 const Main = () => {
   return (
     <div>
-      <Jumbotron fluid className='jumbo-house mb-5 text-white'>
-        <Container className='text-warning'>
-          <h1>Find A house</h1>
+      <Jumbotron fluid className='jumbo-contact mb-5 text-dark'>
+        <Container>
+          <h1>Contact Keeper</h1>
           <p className='lead text-dark'>
-            <strong>Propery listing just got that much easier.</strong>
+            <strong>Keep all of your contacts in one place!</strong>
           </p>
         </Container>
       </Jumbotron>

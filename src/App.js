@@ -4,6 +4,7 @@ import HomeScreen from './components/screens/HomeScreen'
 import Footer from './components/ui/Footer'
 import CryptoScreen from './components/screens/CryptoScreen'
 import HouseScreen from './components/screens/HouseScreen'
+import ContactScreen from './components/screens/ContactScreen'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='/' component={HomeScreen} exact />
         <Route path='/crypto-zone' component={CryptoScreen} exact />
         <Route path='/find-a-house' component={HouseScreen} exact />
+        <Route path='/contact-keeper' component={ContactScreen} exact />
       </Switch>
       <Footer />
     </Router>
