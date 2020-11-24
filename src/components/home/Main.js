@@ -7,7 +7,7 @@ const Main = () => {
       <Jumbotron fluid className='jumbo-home mb-5'>
         <Container className=''>
           <h1 className='display-4 text-white'>Samuel Klepper</h1>
-          <p className='lead text-warning'>Full Stack Web Developer</p>
+          <h1 className='text-light'>Full Stack Web Developer</h1>
         </Container>
       </Jumbotron>
     </div>

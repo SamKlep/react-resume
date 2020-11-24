@@ -7,7 +7,7 @@ const About = () => {
       <Container className='mb-5'>
         <Row className='justify-content-lg-center'>
           <Col lg={6}>
-            <div>
+            <div className='text-center'>
               <h3>About Me</h3>
               <h6 className='text-muted'>
                 Javascript-enthusiast and avid problem solver.
