@@ -5,7 +5,7 @@ const Main = () => {
   return (
     <div>
       <Jumbotron fluid className='jumbo-crypto mb-5 text-white text-center'>
-        <Container>
+        <Container className='main-text'>
           <h1 className='display-4 text-warning'>Crypto Zone</h1>
           <h1 className='text-white'>
             Stay up to date with the latest crypto news & prices.

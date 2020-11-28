@@ -5,11 +5,11 @@ const Main = () => {
   return (
     <div>
       <Jumbotron fluid className='jumbo-contact mb-5 text-dark'>
-        <Container>
-          <h1>Contact Keeper</h1>
-          <p className='lead text-dark'>
-            <strong>Keep all of your contacts in one place!</strong>
-          </p>
+        <Container className='main-text text-center'>
+          <h1 className='display-4 text-danger'>Contact Keeper</h1>
+          <h1 className='text-white'>
+            Keep all of your contacts in one simple place!
+          </h1>
         </Container>
       </Jumbotron>
     </div>
