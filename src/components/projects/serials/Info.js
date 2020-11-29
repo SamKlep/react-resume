@@ -8,7 +8,7 @@ const Info = () => {
       <Container>
         <Row className='justify-content-lg-center mb-5'>
           <Col lg={6}>
-            <h1>About</h1>
+            <h1>Serial Killers & Unsolved Mysteries</h1>
             <p className='lead'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a
               viverra ex, in consequat justo. Etiam volutpat in magna sed

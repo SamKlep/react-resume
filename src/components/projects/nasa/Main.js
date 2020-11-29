@@ -8,7 +8,7 @@ const Main = () => {
         <Container className='main-text text-center text-white'>
           <h1 className='display-4'>Nasa Image of the Day</h1>
           <h1 className='text-white'>
-            <strong>Propery listing just got that much easier.</strong>
+            <strong>Discover the universe one day a time.</strong>
           </h1>
         </Container>
       </Jumbotron>
