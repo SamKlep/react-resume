@@ -100,6 +100,20 @@ const Profile = () => {
                           data-icon='cib:postgresql'
                           data-inline='false'></span>
                       </ListGroup.Item>
+                      <ListGroup.Item>
+                        <strong>Git: </strong>
+                        <span
+                          className='iconify fa-2x'
+                          data-icon='cib:github'
+                          data-inline='false'></span>
+                      </ListGroup.Item>
+                      <ListGroup.Item className='bg-light'>
+                        <strong>Heroku: </strong>
+                        <span
+                          className='iconify fa-2x'
+                          data-icon='cib:heroku'
+                          data-inline='false'></span>
+                      </ListGroup.Item>
                     </ListGroup>
                   </Card.Text>
                 </Card.Body>

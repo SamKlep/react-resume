@@ -14,13 +14,25 @@ const Footer = () => {
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey='link-1'>Email</Nav.Link>
+          <a
+            href='mailto:samklepdev@gmail.com'
+            target='_blank'
+            rel='noreferrer'>
+            samklepdev@gmail.com
+          </a>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey='link-2'>GitHub</Nav.Link>
+          <a href='https://github.com/samklep' target='_blank' rel='noreferrer'>
+            GitHub
+          </a>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey='link-3'>LinkedIn</Nav.Link>
+          <a
+            href='https://www.linkedin.com/in/samuel-klepper-0435b5193/'
+            target='_blank'
+            rel='noreferrer'>
+            LinkedIn
+          </a>
         </Nav.Item>
       </Nav>
     </div>

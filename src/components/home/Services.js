@@ -14,7 +14,10 @@ const Services = () => {
           <Col lg={6}>
             <Card className='bg-dark text-light mb-3'>
               <Card.Body>
-                <Card.Title className='text-warning'>Frontend</Card.Title>
+                <Card.Title className='text-warning'>
+                  {' '}
+                  <h3>Frontend</h3>
+                </Card.Title>
 
                 <Card.Text>
                   Develop production ready applications with
@@ -48,7 +51,10 @@ const Services = () => {
           <Col>
             <Card className='bg-dark text-light'>
               <Card.Body>
-                <Card.Title className='text-warning'>Backend</Card.Title>
+                <Card.Title className='text-warning'>
+                  {' '}
+                  <h3>Backend</h3>
+                </Card.Title>
 
                 <Card.Text>
                   Develop back-end applications/services using{' '}
@@ -85,12 +91,15 @@ const Services = () => {
           <Col lg={6}>
             <Card className='bg-dark text-light mb-3'>
               <Card.Body>
-                <Card.Title className='text-warning'>Dev Ops</Card.Title>
+                <Card.Title className='text-warning'>
+                  {' '}
+                  <h3>Dev Ops</h3>
+                </Card.Title>
 
                 <Card.Text>
                   Utilizing best practices and tools like version control using
                   <strong> Git</strong> and <strong>GitHub.</strong> Delivering
-                  secure applications deployed to
+                  secure, production ready applications deployed to
                   <strong> Heroku</strong>, <strong>Netlify</strong>, and{' '}
                   <strong>AWS</strong>.
                 </Card.Text>
@@ -120,7 +129,7 @@ const Services = () => {
             <Card className='bg-dark text-light'>
               <Card.Body>
                 <Card.Title className='text-warning'>
-                  Unit Testing & Debugging
+                  <h3>Unit Testing & Debugging</h3>
                 </Card.Title>
 
                 <Card.Text>
