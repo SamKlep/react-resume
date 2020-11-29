@@ -15,7 +15,7 @@ const About = () => {
               <p className='lead'>
                 Versatile <strong>software developer</strong> with the ability
                 to pick up new languages and technologies as needed. Currently
-                perusing a degree in Computer Science at{' '}
+                perusing a degree in <i>Computer Science</i> at{' '}
                 <strong>Houston Community College.</strong>
               </p>
             </div>

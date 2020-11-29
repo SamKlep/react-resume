@@ -7,7 +7,6 @@ import {
   Button,
   ListGroup,
   CardGroup,
-  ProgressBar,
 } from 'react-bootstrap'
 
 const Profile = () => {
@@ -54,23 +53,47 @@ const Profile = () => {
                 <Card.Img variant='top' src='img/sam_portfolio1.png' />
               </Card>
 
-              <Card>
+              <Card className='text-center'>
                 <Card.Body>
                   <Card.Title className='text-center'>Skills</Card.Title>
 
                   <Card.Text>
-                    HTML/CSS
-                    <ProgressBar variant='warning' now={95} />
-                    Javascript
-                    <ProgressBar variant='warning' now={90} />
-                    Node
-                    <ProgressBar variant='warning' now={90} />
-                    React
-                    <ProgressBar variant='warning' now={90} />
-                    MongoDB
-                    <ProgressBar variant='warning' now={90} />
-                    PostgreSQL
-                    <ProgressBar variant='warning' now={90} />
+                    <ListGroup>
+                      <ListGroup.Item className='bg-light'>
+                        <strong>HTML/CSS:</strong>{' '}
+                        <i className='fab fa-html5 fa-2x '></i>
+                        <i className='fab fa-css3-alt fa-2x'></i>
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <strong>Javacript: </strong>{' '}
+                        <i className='fab fa-js-square fa-2x'></i>
+                      </ListGroup.Item>
+                      <ListGroup.Item className='bg-light'>
+                        <strong>Node: </strong>{' '}
+                        <i className='fab fa-node-js fa-2x'></i>
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <strong>React: </strong>
+                        <span
+                          className='iconify fa-2x'
+                          data-icon='bx:bxl-react'
+                          data-inline='false'></span>
+                      </ListGroup.Item>
+                      <ListGroup.Item className='bg-light'>
+                        <strong>Mongo: </strong>
+                        <span
+                          className='iconify fa-2x'
+                          data-icon='cib:mongodb'
+                          data-inline='false'></span>
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <strong>PostgreSQL: </strong>
+                        <span
+                          className='iconify fa-2x'
+                          data-icon='cib:postgresql'
+                          data-inline='false'></span>
+                      </ListGroup.Item>
+                    </ListGroup>
                   </Card.Text>
                 </Card.Body>
               </Card>

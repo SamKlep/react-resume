@@ -12,7 +12,7 @@ const Services = () => {
         </Row>
         <Row className='mb-3'>
           <Col lg={6}>
-            <Card className='bg-dark text-light  mb-3'>
+            <Card className='bg-dark text-light mb-3'>
               <Card.Body>
                 <Card.Title className='text-warning'>Frontend</Card.Title>
 
