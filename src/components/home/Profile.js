@@ -18,7 +18,7 @@ const Profile = () => {
             <CardGroup>
               <Card>
                 <Card.Body>
-                  <Card.Title className='text-center'>Profile</Card.Title>
+                  <Card.Title className='text-center mt-5'>Profile</Card.Title>
 
                   <Card.Text>
                     <ListGroup>
@@ -73,20 +73,27 @@ const Profile = () => {
                         <i className='fab fa-node-js fa-2x'></i>
                       </ListGroup.Item>
                       <ListGroup.Item>
+                        <strong>Express: </strong>{' '}
+                        <span
+                          className='iconify fa-1x'
+                          data-icon='logos:express'
+                          data-inline='false'></span>
+                      </ListGroup.Item>
+                      <ListGroup.Item className='bg-light'>
                         <strong>React: </strong>
                         <span
                           className='iconify fa-2x'
                           data-icon='bx:bxl-react'
                           data-inline='false'></span>
                       </ListGroup.Item>
-                      <ListGroup.Item className='bg-light'>
+                      <ListGroup.Item>
                         <strong>Mongo: </strong>
                         <span
                           className='iconify fa-2x'
                           data-icon='cib:mongodb'
                           data-inline='false'></span>
                       </ListGroup.Item>
-                      <ListGroup.Item>
+                      <ListGroup.Item className='bg-light'>
                         <strong>PostgreSQL: </strong>
                         <span
                           className='iconify fa-2x'
