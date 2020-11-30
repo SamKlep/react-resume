@@ -16,7 +16,7 @@ const Content = () => {
               </Button>
             </a>
             <a
-              href='https://findahouse.herokuapp.com/'
+              href='https://fh-realty.herokuapp.com/'
               target='_blank'
               rel='noreferrer'>
               <Button className='m-3'>
