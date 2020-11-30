@@ -4,6 +4,10 @@
   font-family: 'Mukta', sans-serif;
 }
 
+a:hover {
+  color: orange;
+}
+
 /* Header */
 .logo {
   font-size: 2.5em;

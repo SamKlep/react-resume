@@ -34,7 +34,7 @@ const Info = () => {
             <p className='lead'>
               The goal of this project was to create a full-stack application
               that was served on Express and persisted data to a database. I
-              chose Mongo for the database, JWT/Bcrypt/Cookies for
+              chose Mongo for the database, JWT/Bcrypt for
               authentication/route-protection, and React-Bootstrap for styling.
               The user can search through the data to return a specific hosue
               with desired number of rooms and or bathrooms.

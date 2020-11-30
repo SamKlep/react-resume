@@ -25,7 +25,7 @@ const Info = () => {
           </Col>
         </Row>
         <hr />
-        <Row className='mt-5 mb-5 justify-content-lg-center'>
+        <Row className='mt-5 mb-5 justify-content-lg-center align-items-center'>
           <Col>
             <h1 className=''>Tech Stack</h1>
             <p className='lead'>
@@ -38,7 +38,7 @@ const Info = () => {
             </p>
           </Col>
           <Col>
-            <ListGroup className='text-center'>
+            <ListGroup className='skills-list text-center mx-auto'>
               <ListGroup.Item className='bg-light'>React</ListGroup.Item>
               <ListGroup.Item>CSS</ListGroup.Item>
               <ListGroup.Item className='bg-light'>Mongo</ListGroup.Item>

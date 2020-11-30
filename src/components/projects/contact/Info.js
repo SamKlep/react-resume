@@ -25,15 +25,15 @@ const Info = () => {
           </Col>
         </Row>
         <hr />
-        <Row className='mt-5 mb-5'>
+        <Row className='mt-5 mb-5 align-items-center'>
           <Col>
             <h1 className='mt-5'>Tech Stack</h1>
             <p className='lead'>
               {' '}
               This was a simple exercise in state management across multiple
-              components using React. Implementation of JWT & BcryptJS for
+              components using React instead of Redux. I used JWT & BcryptJS for
               authentication, Express and Mongo for the backend, React and React
-              Context API for front-end UI.
+              Context API for front-end UI and state.
             </p>
           </Col>
           <Col>
