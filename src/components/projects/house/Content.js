@@ -8,7 +8,7 @@ const Content = () => {
         <Row className='justify-content-lg-center mb-5'>
           <Col className='text-center' lg={6}>
             <a
-              href='https://github.com/SamKlep/btre_Project'
+              href='https://github.com/SamKlep/fiindahouse'
               target='_blank'
               rel='noreferrer'>
               <Button className='m-3'>
