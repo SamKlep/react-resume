@@ -11,7 +11,7 @@ const Resume = () => {
             <br />
             <hr />
             <br />
-            <a href='img/sbk-Resume-11:2020.pdf' target='_blank'>
+            <a href='img/resume.pdf' target='_blank'>
               <Button className='btn btn-block'>
                 <i className='m-2 fas fa-download'></i>Download
               </Button>
