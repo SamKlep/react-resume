@@ -13,10 +13,12 @@ const About = () => {
                 Javascript-enthusiast and avid problem solver.
               </h4>
               <p className='lead'>
-                Versatile <strong>software developer</strong> with the ability
-                to pick up new languages and technologies as needed. Currently
-                perusing a degree in <i>Computer Science</i> at{' '}
-                <strong>Houston Community College.</strong>
+                Versatile <strong className='bold'>software developer</strong>{' '}
+                with the ability to pick up new languages and technologies as
+                needed. Initially pursuing a path in Graphic Design, but decided
+                to follow my passion for <i>technology</i> and strive to make{' '}
+                <strong className='bold'>aesthetically pleasing </strong>
+                products.
               </p>
             </div>
           </Col>

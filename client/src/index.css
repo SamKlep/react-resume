@@ -75,3 +75,8 @@ a:hover {
   width: 230px;
   justify-content: center;
 }
+
+.bold {
+  font-weight: 700;
+  color: black;
+}
