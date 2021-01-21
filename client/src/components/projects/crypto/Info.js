@@ -54,7 +54,7 @@ const Info = () => {
             </p>
           </Col>
           <Col>
-            <ListGroup className='skills-list mx-auto'>
+            <ListGroup className='skills-list mx-auto text-center'>
               <ListGroup.Item className='bg-light'>HTML</ListGroup.Item>
               <ListGroup.Item>CSS</ListGroup.Item>
               <ListGroup.Item className='bg-light'>EJS</ListGroup.Item>

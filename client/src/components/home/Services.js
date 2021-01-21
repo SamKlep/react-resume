@@ -22,9 +22,9 @@ const Services = () => {
                 <Card.Text>
                   Develop production ready applications with
                   <strong> HTML5, CSS3, Javascript, Bootstrap </strong> and
-                  <strong> React.js.</strong> Utilize API's to deliver up to
-                  date information while keeping a mobile first approach to
-                  responsive design.
+                  <strong> React.js.</strong> Utilize third party API's to
+                  deliver up to date information while keeping a mobile first
+                  approach to responsive design.
                 </Card.Text>
                 <Container className='text-center'>
                   <span
