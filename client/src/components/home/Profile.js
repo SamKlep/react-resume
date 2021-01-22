@@ -30,7 +30,13 @@ const Profile = () => {
                         <strong>Phone:</strong> (713) 376 - 9541
                       </ListGroup.Item>
                       <ListGroup.Item className='bg-light'>
-                        <strong>Email:</strong> samklepdev@gmail.com
+                        <strong>Email:</strong>{' '}
+                        <a
+                          href='mailto:sam@samklepper.com'
+                          target='_blank'
+                          rel='noreferrer'>
+                          sam@samklepper.com
+                        </a>
                       </ListGroup.Item>
                     </ListGroup>
                   </Card.Text>
