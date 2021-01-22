@@ -15,10 +15,10 @@ const About = () => {
               <p className='lead'>
                 Versatile <strong className='bold'>software developer</strong>{' '}
                 with the ability to pick up new languages and technologies as
-                needed. Initially pursuing a path in Graphic Design, but decided
-                to follow my passion for <i>technology</i> and strive to make{' '}
-                <strong className='bold'>aesthetically pleasing </strong>
-                products.
+                needed.  Initially I pursued a path in Graphic Design, but later
+                decided to follow my passion for 
+                <strong className='bold'>technology</strong> and{' '}
+                <strong className='bold'>web development.</strong>
               </p>
             </div>
           </Col>
