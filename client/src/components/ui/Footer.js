@@ -14,11 +14,8 @@ const Footer = () => {
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <a
-            href='mailto:samklepdev@gmail.com'
-            target='_blank'
-            rel='noreferrer'>
-            samklepdev@gmail.com
+          <a href='mailto:sam@samklepper.com' target='_blank' rel='noreferrer'>
+            sam@samklepper.com
           </a>
         </Nav.Item>
         <Nav.Item>
