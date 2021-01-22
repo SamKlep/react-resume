@@ -53,7 +53,7 @@ const PortfolioGrid = () => {
             </CardDeck>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Col>
             <CardDeck>
               <Card>
@@ -99,7 +99,7 @@ const PortfolioGrid = () => {
               </Card>
             </CardDeck>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </div>
   )
