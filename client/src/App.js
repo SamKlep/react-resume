@@ -17,9 +17,9 @@ function App() {
       <Header />
       <Switch>
         <Route path='/' component={HomeScreen} exact />
-        <Route path='/crypto-zone' component={CryptoScreen} exact />
-        <Route path='/find-a-house' component={HouseScreen} exact />
-        <Route path='/contact-keeper' component={ContactScreen} exact />
+        <Route path='/cryptowise' component={CryptoScreen} exact />
+        <Route path='/deleon' component={HouseScreen} exact />
+        <Route path='/ultra' component={ContactScreen} exact />
         <Route path='/nasa' component={NasaScreen} exact />
         <Route path='/serials' component={SerialsScreen} exact />
         <Route path='/spacex' component={SpaceXScreen} exact />

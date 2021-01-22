@@ -6,46 +6,48 @@ const PortfolioGrid = () => {
   return (
     <div>
       <Container>
+        u
         <Row className='mb-5'>
           <Col>
             <CardDeck>
               <Card>
-                <Card.Img variant='top' src='img/crypto/crypto-zone1.png' />
+                <Card.Img variant='top' src='img/crypto/crypto-1.png' />
                 <Card.Body>
-                  <Card.Title>Crypto Zone</Card.Title>
+                  <Card.Title>Crypto Wise</Card.Title>
                   <Card.Text>
                     Stay up tp date with the latest crypto news & prices!
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Link to='/crypto-zone'>
+                  <Link to='/cryptowise'>
                     <Button>Learn more</Button>
                   </Link>
                 </Card.Footer>
               </Card>
               <Card>
-                <Card.Img variant='top' src='img/house/findahouse.png' />
+                <Card.Img variant='top' src='img/deleon/dss1.png' />
                 <Card.Body>
-                  <Card.Title>Find A House</Card.Title>
+                  <Card.Title>De Leon Safety Solutions</Card.Title>
                   <Card.Text>
-                    Property listing just got so much easier-- sell your house
-                    today!
+                    Small business website for a local demolition company.
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Link to='/find-a-house'>
+                  <Link to='/deleon'>
                     <Button>Learn more</Button>
                   </Link>
                 </Card.Footer>
               </Card>
               <Card>
-                <Card.Img variant='top' src='img/contact/contactkeeper.png' />
+                <Card.Img variant='top' src='img/ultra/ultra-1.png' />
                 <Card.Body>
-                  <Card.Title>Contact Keeper</Card.Title>
-                  <Card.Text>Keep all of your contacts in one place!</Card.Text>
+                  <Card.Title>Ultra Demolition</Card.Title>
+                  <Card.Text>
+                    Small business website for another local demolition company.
+                  </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Link to='/contact-keeper'>
+                  <Link to='/ultra'>
                     <Button>Learn more</Button>
                   </Link>
                 </Card.Footer>
