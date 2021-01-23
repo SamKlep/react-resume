@@ -5,7 +5,7 @@ import Scrollup from './components/ui/ScrollUpButton'
 import HomeScreen from './components/screens/HomeScreen'
 import Footer from './components/ui/Footer'
 import CryptoScreen from './components/screens/CryptoScreen'
-import HouseScreen from './components/screens/HouseScreen'
+import DeleonScreen from './components/screens/DeleonScreen'
 import ContactScreen from './components/screens/ContactScreen'
 import NasaScreen from './components/screens/NasaScreen'
 import SerialsScreen from './components/screens/SerialsScreen'
@@ -18,7 +18,7 @@ function App() {
       <Switch>
         <Route path='/' component={HomeScreen} exact />
         <Route path='/cryptowise' component={CryptoScreen} exact />
-        <Route path='/deleon' component={HouseScreen} exact />
+        <Route path='/deleon' component={DeleonScreen} exact />
         <Route path='/ultra' component={ContactScreen} exact />
         <Route path='/nasa' component={NasaScreen} exact />
         <Route path='/serials' component={SerialsScreen} exact />
