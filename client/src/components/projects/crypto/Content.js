@@ -4,11 +4,11 @@ import { Container, Row, Col, Button } from 'react-bootstrap'
 const Content = () => {
   return (
     <div>
-      <Container>
+      <Container className='info-buttons'>
         <Row className='justify-content-lg-center mb-5'>
           <Col className='text-center' lg={6}>
             <a
-              href='https://github.com/SamKlep/crypto-zone'
+              href='https://github.com/SamKlep/cryptowise'
               target='_blank'
               rel='noreferrer'>
               <Button className='m-3'>
@@ -16,7 +16,7 @@ const Content = () => {
               </Button>
             </a>
             <a
-              href='https://crypto-zone.herokuapp.com/'
+              href='https://crypto-wise.herokuapp.com/'
               target='_blank'
               rel='noreferrer'>
               <Button className='m-3'>

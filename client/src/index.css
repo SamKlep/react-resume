@@ -80,3 +80,15 @@ a:hover {
   font-weight: 700;
   color: black;
 }
+
+.info-buttons {
+  margin-top: 150px;
+}
+.info-container {
+  margin-top: 150px;
+}
+
+.stack-container {
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
