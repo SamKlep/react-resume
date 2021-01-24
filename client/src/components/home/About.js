@@ -8,7 +8,7 @@ const About = () => {
         <Row className='justify-content-lg-center'>
           <Col lg={8}>
             <div className='text-center'>
-              <h2 className='mb-3'>About Me</h2>
+              <h2 className='display-4 mb-3'>About Me</h2>
               <h4 className='text-muted'>
                 Javascript-enthusiast and avid problem solver.
               </h4>

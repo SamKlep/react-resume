@@ -7,7 +7,7 @@ const Resume = () => {
       <Container>
         <Row className='justify-content-lg-center mb-5'>
           <Col lg={6}>
-            <h1 className='text-center'>Resume</h1>
+            <h1 className='display-4 text-center'>Resume</h1>
             <br />
             <hr />
             <br />

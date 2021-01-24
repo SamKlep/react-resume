@@ -27,6 +27,11 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.main-jumbo {
+  height: 400px;
+  background-color: rgb(126, 126, 126);
+  background-image: linear-gradient(rgb(145, 145, 145), rgb(255, 255, 255));
+}
 
 .about-container {
   margin-top: 150px;
@@ -110,4 +115,8 @@ a:hover {
 
 .skill-icon:hover {
   color: orange;
+}
+
+.example {
+  position: absolute !important;
 }

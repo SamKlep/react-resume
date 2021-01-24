@@ -1,13 +1,13 @@
 import React from 'react'
 import { Jumbotron, Container } from 'react-bootstrap'
+import ParticlesContainer from './ParticlesContainer'
 
 const Main = () => {
   return (
     <div>
-      <Jumbotron fluid className='jumbo-home mb-5'>
+      <Jumbotron fluid className='main-jumbo mb-5'>
         <Container className='main-text'>
-          <h1 className='display-4 text-white'>Samuel Klepper</h1>
-          <h1 className='text-light'>Full Stack Web Developer</h1>
+          <ParticlesContainer />
         </Container>
       </Jumbotron>
     </div>

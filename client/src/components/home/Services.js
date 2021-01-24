@@ -7,7 +7,7 @@ const Services = () => {
       <Container className='services-container'>
         <Row className='justify-content-lg-center mb-5'>
           <Col lg={6}>
-            <h1 className='text-center'>Services</h1>
+            <h1 className='display-4 text-center'>Services</h1>
           </Col>
         </Row>
         <Row className='mb-3'>

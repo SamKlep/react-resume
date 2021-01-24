@@ -9,7 +9,7 @@ const Contact = () => {
       <Container>
         <Row className='justify-content-lg-center mb-5'>
           <Col className='text-center' lg={6}>
-            <h1>Contact</h1>
+            <h1 className='display-4'>Contact</h1>
             <h3>Let's get in touch.</h3>
           </Col>
         </Row>

@@ -8,7 +8,7 @@ const Portfolio = () => {
       <Container className='text-center'>
         <Row className='justify-content-lg-center mb-5'>
           <Col lg={6}>
-            <h1>Portfolio</h1>
+            <h1 className='display-4'>Portfolio</h1>
             <h3>My Latest Works</h3>
           </Col>
         </Row>
