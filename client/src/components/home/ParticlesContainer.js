@@ -10,7 +10,6 @@ class ParticlesContainer extends Component {
           position: 'absolute',
           zindex: '-1',
           width: '100%',
-          height: '400px',
         }}
         params={{
           particles: {
@@ -22,6 +21,10 @@ class ParticlesContainer extends Component {
             },
             color: {
               value: '#f0ad4e',
+            },
+            line_linked: {
+              color: '#f44242',
+              opacity: 1,
             },
           },
           interactivity: {
