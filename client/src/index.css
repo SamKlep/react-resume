@@ -10,6 +10,7 @@ body {
 
 a:hover {
   color: orange;
+  text-decoration: none;
 }
 
 /* Header */
@@ -25,6 +26,35 @@ a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.about-container {
+  margin-top: 150px;
+}
+
+.info-container {
+  margin-top: 150px;
+}
+
+.stack-container {
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.services-container {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.resume {
+  margin-bottom: 150px;
+}
+.portfolio {
+  margin-bottom: 150px;
+}
+
+.contact-container {
+  margin-bottom: 150px;
 }
 
 /* Portfolio */
@@ -43,25 +73,6 @@ a:hover {
 }
 .jumbo-contact {
   background-image: url('https://images.pexels.com/photos/33999/pexels-photo.jpg?cs=srgb&dl=pexels-negative-space-33999.jpg&fm=jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.jumbo-nasa {
-  background-image: url('https://images.pexels.com/photos/2156/sky-earth-space-working.jpg?cs=srgb&dl=pexels-pixabay-2156.jpg&fm=jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.jumbo-serials {
-  background-image: url('https://images.pexels.com/photos/162389/lost-places-old-decay-ruin-162389.jpeg?cs=srgb&dl=pexels-pixabay-162389.jpg&fm=jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.jumbo-spacex {
-  background-image: url('https://images.pexels.com/photos/23769/pexels-photo.jpg?cs=srgb&dl=pexels-spacex-23769.jpg&fm=jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -88,11 +99,7 @@ a:hover {
 .info-buttons {
   margin-top: 150px;
 }
-.info-container {
-  margin-top: 150px;
-}
 
-.stack-container {
-  margin-top: 100px;
-  margin-bottom: 10px;
+.footer {
+  margin-top: 50px;
 }

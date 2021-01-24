@@ -7,37 +7,32 @@ const Info = () => {
     <div>
       <Container className='info-container'>
         <Row className='justify-content-lg-center mb-5'>
-          <Col>
+          <Col lg={8}>
             <h1>De Leon Safety Solutions</h1>
             <p className='lead'>
-              Anyone that has ever searched for a new house or apartment knows
-              how painful the entire process can be. The time spent researching
-              and sifting through data can be dreadful in itself. If you have
-              ever been on the selling end of the deal, you know that can be a
-              whole other world of concern. Here at FH Realty, we handle all the
-              heavy-lifting for you.
+              Anyone that has ever driven down Highway 225 going towards La
+              Porte, TX has probably noticed the many refineries scattered
+              about. Working at the refineries can be an accident waiting to
+              happen. Therefore, being up to date on all safety regulations and
+              OSHA standards can really help one have the upper hand.
             </p>
             <p className='lead mt-5'>
-              Leave all the worrying and planning to one of our top-performing
-              Realtors! We have the experience and the know-how to sell your
-              property or get you in to a cozy new home. Create an account and
-              browse the listings, search for a house by specifics, check out
-              the seller of the month or our featured listings— find your dream
-              home today!
+              Leave all the worrying about safety, regulations and the
+              what-to-do up to De Leon Safety Solutions (DSS). Trained,
+              certified and ready to share the most up to date information from
+              OSHA standards.
             </p>
           </Col>
         </Row>
         <hr />
         <Row className='stack-container justify-content-md-center'>
-          <Col className='mt-5 mx-auto'>
+          <Col className='mt-5 mx-auto align-self-center'>
             <h1>Tech Stack</h1>
             <p className='lead'>
-              The goal of this project was to create a full-stack application
-              that was served on Express and persisted data to a database. I
-              chose Mongo for the database, JWT/Bcrypt for
-              authentication/route-protection, and React-Bootstrap for styling.
-              The user can search through the data to return a specific hosue
-              with desired number of rooms and or bathrooms.
+              The goal of this project was to create a brochure type web
+              application that satisfied the clients needs. In this case, it was
+              purely information being displayed in which I used HTML, CSS,
+              React, React-Bootstrap, & React-Lightbox.
             </p>
           </Col>
           <Col className=' mt-5 text-center justify-content-md-center'>

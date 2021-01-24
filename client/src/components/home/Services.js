@@ -4,7 +4,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap'
 const Services = () => {
   return (
     <div id='services'>
-      <Container className='mt-5 mb-5'>
+      <Container className='services-container'>
         <Row className='justify-content-lg-center mb-5'>
           <Col lg={6}>
             <h1 className='text-center'>Services</h1>

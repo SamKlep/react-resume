@@ -6,7 +6,6 @@ const PortfolioGrid = () => {
   return (
     <div>
       <Container>
-        u
         <Row className='mb-5'>
           <Col>
             <CardDeck>
@@ -29,7 +28,7 @@ const PortfolioGrid = () => {
                 <Card.Body>
                   <Card.Title>De Leon Safety Solutions</Card.Title>
                   <Card.Text>
-                    Small business website for a local demolition company.
+                    Premier provider of safety consulting services!
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
@@ -43,7 +42,7 @@ const PortfolioGrid = () => {
                 <Card.Body>
                   <Card.Title>Ultra Demolition</Card.Title>
                   <Card.Text>
-                    Small business website for another local demolition company.
+                    Here for all of your Demolition & Excavation needs!
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>

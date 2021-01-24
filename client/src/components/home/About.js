@@ -4,11 +4,11 @@ import { Container, Row, Col } from 'react-bootstrap'
 const About = () => {
   return (
     <div id='about'>
-      <Container className=' mb-5'>
+      <Container className='about-container mb-5'>
         <Row className='justify-content-lg-center'>
-          <Col lg={6}>
+          <Col lg={8}>
             <div className='text-center'>
-              <h2>About Me</h2>
+              <h2 className='mb-3'>About Me</h2>
               <h4 className='text-muted'>
                 Javascript-enthusiast and avid problem solver.
               </h4>

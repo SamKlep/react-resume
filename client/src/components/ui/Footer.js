@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
       <Nav
-        className='justify-content-center bg-dark flex-column text-center'
+        className='justify-content-center bg-dark flex-column text-center footer'
         activeKey='/home'
         style={{ height: '250px' }}>
         <Nav.Item>
