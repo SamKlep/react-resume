@@ -25,8 +25,8 @@ const Info = () => {
           </Col>
         </Row>
         <hr />
-        <Row className='stack-container justify-content-md-center'>
-          <Col className='mt-5 mx-auto align-self-center'>
+        <Row className='stack-container'>
+          <Col>
             <h1>Tech Stack</h1>
             <p className='lead'>
               The goal of this project was to create a brochure type web
@@ -35,14 +35,12 @@ const Info = () => {
               React, React-Bootstrap, & React-Lightbox.
             </p>
           </Col>
-          <Col className=' mt-5 text-center justify-content-md-center'>
-            <ListGroup className='skills-list mx-auto'>
-              <ListGroup.Item className='bg-light'>Node</ListGroup.Item>
-              <ListGroup.Item>Express</ListGroup.Item>
-              <ListGroup.Item className='bg-light'>React</ListGroup.Item>
+          <Col>
+            <ListGroup className='skills-list mx-auto text-center'>
+              <ListGroup.Item className='bg-light'>HTML</ListGroup.Item>
               <ListGroup.Item>CSS</ListGroup.Item>
-              <ListGroup.Item className='bg-light'>Mongo</ListGroup.Item>
-              <ListGroup.Item>Bootstrap</ListGroup.Item>
+              <ListGroup.Item className='bg-light'>React</ListGroup.Item>
+              <ListGroup.Item>React-Bootstrap</ListGroup.Item>
               <ListGroup.Item className='bg-light'>
                 React-Lightbox
               </ListGroup.Item>

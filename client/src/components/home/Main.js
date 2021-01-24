@@ -1,5 +1,4 @@
 import React from 'react'
-import { Jumbotron, Container } from 'react-bootstrap'
 import ParticlesContainer from './ParticlesContainer'
 
 const Main = () => {
