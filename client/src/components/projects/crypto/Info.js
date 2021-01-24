@@ -45,12 +45,12 @@ const Info = () => {
             <p className='lead'>
               This was the first project of my coursework at Digital Crafts,
               which was to create a front-end application that utilizes a
-              third-party api. I wanted the app to have some utility in the
+              third-party API. I wanted the app to have some utility in the
               world with real world scenarios, so I chose the CryptoCompare API
               and soon built the app around that. Initially I used only HTML,
               CSS, and Bootstrap and there was only price display functionality.
-              But not too much time later I price filtering, React,
-              React-Bootstrap & a news section.
+              But not too much time later I added price filtering by name,
+              React, React-Bootstrap & a news section.
             </p>
           </Col>
           <Col>
