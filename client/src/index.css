@@ -57,6 +57,10 @@ a:hover {
   margin-bottom: 150px;
 }
 
+.ultra-container {
+  margin-bottom: 80px;
+}
+
 /* Portfolio */
 .jumbo-crypto {
   background-image: url('https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
@@ -72,7 +76,7 @@ a:hover {
   background-size: cover;
 }
 .jumbo-contact {
-  background-image: url('https://images.pexels.com/photos/33999/pexels-photo.jpg?cs=srgb&dl=pexels-negative-space-33999.jpg&fm=jpg');
+  background-image: url('https://images.unsplash.com/photo-1594155840350-fac3cc4b6816?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,4 +106,8 @@ a:hover {
 
 .footer {
   margin-top: 50px;
+}
+
+.skill-icon:hover {
+  color: orange;
 }

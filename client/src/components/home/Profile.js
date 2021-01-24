@@ -6,7 +6,7 @@ import {
   Card,
   Button,
   ListGroup,
-  CardGroup,
+  ListGroupItem,
 } from 'react-bootstrap'
 
 const Profile = () => {
@@ -15,116 +15,105 @@ const Profile = () => {
       <Container>
         <Row>
           <Col>
-            <CardGroup>
-              <Card>
-                <Card.Body>
-                  <Card.Title className='text-center mt-5'>Profile</Card.Title>
+            <Card className='text-center'>
+              <Card.Img variant='top' src='img/sam_portfolio1.png' />
 
-                  <Card.Text>
-                    <ListGroup>
-                      <ListGroup.Item className='bg-light'>
-                        <strong>Address:</strong> 2406 W. 18th St, Houston, TX
-                        77008
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        <strong>Phone:</strong> (713) 376 - 9541
-                      </ListGroup.Item>
-                      <ListGroup.Item className='bg-light'>
-                        <strong>Email:</strong>{' '}
-                        <a
-                          href='mailto:sam@samklepper.com'
-                          target='_blank'
-                          rel='noreferrer'>
-                          sam@samklepper.com
-                        </a>
-                      </ListGroup.Item>
-                    </ListGroup>
-                  </Card.Text>
-                  <div className='text-center'>
-                    <Card.Link href='#'>
-                      <Button>
-                        <i className='fab fa-github'></i>
-                      </Button>
-                    </Card.Link>
-                    <Card.Link href='#'>
-                      <Button>
-                        <i className='fab fa-linkedin-in'></i>
-                      </Button>
-                    </Card.Link>
-                  </div>
-                </Card.Body>
-              </Card>
-
-              <Card>
-                <Card.Img variant='top' src='img/sam_portfolio1.png' />
-              </Card>
-
-              <Card className='text-center'>
-                <Card.Body>
-                  <Card.Title className='text-center'>Skills</Card.Title>
-
-                  <Card.Text>
-                    <ListGroup>
-                      <ListGroup.Item className='bg-light'>
-                        <strong>HTML/CSS:</strong>{' '}
-                        <i className='fab fa-html5 fa-2x '></i>
-                        <i className='fab fa-css3-alt fa-2x'></i>
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        <strong>Javacript: </strong>{' '}
-                        <i className='fab fa-js-square fa-2x'></i>
-                      </ListGroup.Item>
-                      <ListGroup.Item className='bg-light'>
-                        <strong>Node: </strong>{' '}
-                        <i className='fab fa-node-js fa-2x'></i>
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        <strong>Express: </strong>{' '}
-                        <span
-                          className='iconify fa-1x'
-                          data-icon='logos:express'
-                          data-inline='false'></span>
-                      </ListGroup.Item>
-                      <ListGroup.Item className='bg-light'>
-                        <strong>React: </strong>
-                        <span
-                          className='iconify fa-2x'
-                          data-icon='bx:bxl-react'
-                          data-inline='false'></span>
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        <strong>Mongo: </strong>
-                        <span
-                          className='iconify fa-2x'
-                          data-icon='cib:mongodb'
-                          data-inline='false'></span>
-                      </ListGroup.Item>
-                      <ListGroup.Item className='bg-light'>
-                        <strong>PostgreSQL: </strong>
-                        <span
-                          className='iconify fa-2x'
-                          data-icon='cib:postgresql'
-                          data-inline='false'></span>
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        <strong>Git: </strong>
-                        <span
-                          className='iconify fa-2x'
-                          data-icon='cib:github'
-                          data-inline='false'></span>
-                      </ListGroup.Item>
-                      <ListGroup.Item className='bg-light'>
-                        <strong>Heroku: </strong>
-                        <span
-                          className='iconify fa-2x'
-                          data-icon='cib:heroku'
-                          data-inline='false'></span>
-                      </ListGroup.Item>
-                    </ListGroup>
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </CardGroup>
+              <Card.Body>
+                <Card.Title>Samuel Klepper</Card.Title>
+                <ListGroup className='list-group-flush'>
+                  <ListGroupItem>
+                    2406 W. 18th St, Houston, TX 77008
+                  </ListGroupItem>
+                  <ListGroupItem>(713) 376 - 9541</ListGroupItem>
+                  <ListGroupItem>
+                    <a
+                      href='mailto:sam@samklepper.com'
+                      target='_blank'
+                      rel='noreferrer'>
+                      sam@samklepper.com
+                    </a>
+                  </ListGroupItem>
+                </ListGroup>
+                <Card.Link
+                  href='https://github.com/samklep'
+                  target='_blank'
+                  rel='noreferrer'>
+                  <Button>
+                    <i className='fab fa-github'></i>
+                  </Button>
+                </Card.Link>
+                <Card.Link
+                  href='https://www.linkedin.com/in/samuel-klepper-0435b5193/'
+                  target='_blank'
+                  rel='noreferrer'>
+                  <Button>
+                    <i className='fab fa-linkedin-in'></i>
+                  </Button>
+                </Card.Link>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col className='align-self-center'>
+            <Container>
+              <h2 className='text-center'>Skills</h2>
+              <ListGroup className='list-group-flush text-center'>
+                <ListGroup.Item className='bg-light'>
+                  <strong>HTML/CSS:</strong>{' '}
+                  <i className='fab fa-html5 fa-2x skill-icon '></i>
+                  <i className='fab fa-css3-alt fa-2x skill-icon'></i>
+                </ListGroup.Item>
+                <ListGroup.Item>
+                  <strong>Javacript: </strong>{' '}
+                  <i className='fab fa-js-square fa-2x skill-icon'></i>
+                </ListGroup.Item>
+                <ListGroup.Item className='bg-light'>
+                  <strong>Node: </strong>{' '}
+                  <i className='fab fa-node-js fa-2x skill-icon'></i>
+                </ListGroup.Item>
+                <ListGroup.Item>
+                  <strong>Express: </strong>{' '}
+                  <span
+                    className='iconify fa-1x skill-icon'
+                    data-icon='logos:express'
+                    data-inline='false'></span>
+                </ListGroup.Item>
+                <ListGroup.Item className='bg-light'>
+                  <strong>React: </strong>
+                  <span
+                    className='iconify fa-2x skill-icon'
+                    data-icon='bx:bxl-react'
+                    data-inline='false'></span>
+                </ListGroup.Item>
+                <ListGroup.Item>
+                  <strong>Mongo: </strong>
+                  <span
+                    className='iconify fa-2x skill-icon'
+                    data-icon='cib:mongodb'
+                    data-inline='false'></span>
+                </ListGroup.Item>
+                <ListGroup.Item className='bg-light'>
+                  <strong>PostgreSQL: </strong>
+                  <span
+                    className='iconify fa-2x skill-icon'
+                    data-icon='cib:postgresql'
+                    data-inline='false'></span>
+                </ListGroup.Item>
+                <ListGroup.Item>
+                  <strong>Git: </strong>
+                  <span
+                    className='iconify fa-2x skill-icon'
+                    data-icon='cib:github'
+                    data-inline='false'></span>
+                </ListGroup.Item>
+                <ListGroup.Item className='bg-light'>
+                  <strong>Heroku: </strong>
+                  <span
+                    className='iconify fa-2x skill-icon'
+                    data-icon='cib:heroku'
+                    data-inline='false'></span>
+                </ListGroup.Item>
+              </ListGroup>
+            </Container>
           </Col>
         </Row>
       </Container>
