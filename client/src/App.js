@@ -6,7 +6,7 @@ import HomeScreen from './components/screens/HomeScreen'
 import Footer from './components/ui/Footer'
 import CryptoScreen from './components/screens/CryptoScreen'
 import DeleonScreen from './components/screens/DeleonScreen'
-import UltraScreen from './components/screens/UltraScreen'
+import HeroScreen from './components/screens/HeroScreen'
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Route path='/' component={HomeScreen} exact />
         <Route path='/cryptowise' component={CryptoScreen} />
         <Route path='/deleon' component={DeleonScreen} />
-        <Route path='/ultra' component={UltraScreen} />
+        <Route path='/hero' component={HeroScreen} />
       </Switch>
       <Scrollup />
       <Footer />

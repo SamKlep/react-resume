@@ -38,15 +38,15 @@ const PortfolioGrid = () => {
                 </Card.Footer>
               </Card>
               <Card>
-                <Card.Img variant='top' src='img/ultra/ultra-1.png' />
+                <Card.Img variant='top' src='img/hero/hero-1.png' />
                 <Card.Body>
-                  <Card.Title>Ultra Demolition</Card.Title>
+                  <Card.Title>Hero's Corner</Card.Title>
                   <Card.Text>
-                    Here for all of your Demolition & Excavation needs!
+                    E-commerce store dedicated to all your comic Heroes!
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <Link to='/ultra'>
+                  <Link to='/hero'>
                     <Button>Learn more</Button>
                   </Link>
                 </Card.Footer>

@@ -14,9 +14,13 @@ const Profile = () => {
     <div>
       <Container>
         <Row>
-          <Col>
+          <Col lg={4}>
             <Card className='text-center'>
-              <Card.Img variant='top' src='img/sam_portfolio1.png' />
+              <Card.Img
+                variant='top'
+                src='img/sam_portfolio1.png'
+                roundedCircle
+              />
 
               <Card.Body>
                 <Card.Title>Samuel Klepper</Card.Title>
@@ -53,6 +57,7 @@ const Profile = () => {
               </Card.Body>
             </Card>
           </Col>
+
           <Col className='align-self-center'>
             <Container>
               <h2 className='text-center'>Skills</h2>
