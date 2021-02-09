@@ -14,7 +14,7 @@ const Profile = () => {
     <div>
       <Container>
         <Row>
-          <Col lg={4}>
+          <Col lg={6}>
             <Card className='text-center'>
               <Card.Img
                 variant='top'
